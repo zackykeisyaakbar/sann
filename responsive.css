@@ -1,0 +1,39 @@
+/* Untuk tablet dalam orientasi potret dan lanskap */
+@media (max-width: 768px) {
+    header {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+    body {
+        margin: 0;
+        text-align: center;
+        display: block;
+    }
+    button {
+        text-align: center;
+        display: block;
+    }
+
+    aside {
+        justify-content: center;
+    }
+  }
+  
+  /* Untuk smartphone */
+  @media (max-width: 480px) {
+    header {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+    body {
+        margin: 0;
+        text-align: center;
+        display: block;
+    }
+    button {
+        text-align: center;
+        display: block;
+    }
+  }

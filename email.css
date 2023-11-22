@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background-color: grey;
+    width: 100%;
+    height: 80px;
+    
+}
+
+.header-right {
+    float: left;
+    font-size: 40px;
+    padding: 14px;
+    margin-right: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+    margin-top: 10px;
+    padding: 20px 30px;
+    transition: .6s ease-out;
+}
+
+nav li:hover {
+    font-weight: bold;
+    background-color: brown;
+    transition: .6s ease;
+}
+
+nav li a {
+    color:black;
+    font-family: verdana;
+    font-weight: bold;
+    transition: .6s ease-out;
+}
+
+nav li a:hover {
+    color: white;
+    font-size: 20px;
+    transition: .6s ease;
+}
+
+.Gmails {
+    float: left;
+    margin-left: 300px;
+    margin-top: 250px;
+
+}
+
+.Gmails p {
+    margin-left: 130px;
+    margin-top: -20px;
+}
+
+.Gmails button {
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 5px;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    top:50%;
+    background-color: black;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: white;
+    font-family: tahoma;
+    cursor: pointer;
+    transition: .8s ease-out;
+}
+
+.Gmails button:hover {
+    box-shadow: 0 0 100px black;
+    transition: .8s ease;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Gmailp {
+    float: left;
+    margin-left: 300px;
+    margin-top: 250px;
+}
+
+.Gmailp p {
+    margin-top: -20px;
+    margin-left: 90px;
+}
+
+.Gmailp button {
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 5px;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    top:50%;
+    background-color: black;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: white;
+    font-family: tahoma;
+    cursor: pointer;
+    transition: .8s ease-out;
+}
+
+.Gmailp button:hover {
+    box-shadow: 0 0 100px black;
+    transition: .8s ease;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: brown;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    margin-top: 550px;
+}

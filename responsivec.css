@@ -1,0 +1,207 @@
+/* CSS untuk layar 320x510px */
+@media (max-width: 320px) and (max-height: 510px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    header {
+        height: 60px;
+    }
+
+    .header-right {
+        font-size: 30px;
+        margin-right: 20px;
+    }
+
+    nav li {
+        padding: 15px 20px;
+    }
+
+    nav li a {
+        font-size: 10px;
+    }
+
+    .contact-container {
+        padding: 10px;
+        max-width: 280px;
+        margin: 0 auto;
+        margin-left: -0px;
+    }
+
+    .form-header {
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        margin: 5px 0;
+    }
+
+    input[type="email"],
+    input[type="text"],
+    textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        font-size: 12px;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    .icon {
+        margin-right: 100px;
+        display: flex;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+
+    footer {
+        margin-top: 150px;
+        padding-top: 10px;
+    }
+}
+
+/* CSS untuk layar 375x510px */
+@media (max-width: 375px) and (max-height: 510px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    header {
+        height: 60px;
+    }
+
+    .header-right {
+        font-size: 30px;
+        padding: 10px;
+        margin-right: 20px;
+    }
+
+    nav li {
+        padding: 15px 20px;
+        font-size: 10px;
+    }
+
+    .contact-container {
+        padding: 15px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .form-header {
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        margin: 8px 0;
+    }
+
+    input[type="email"],
+    input[type="text"],
+    textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
+
+    textarea {
+        height: 120px;
+    }
+
+    .icon {
+        margin-right: 120px;
+        display: flex;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    footer {
+        margin-top: 150px;
+        padding-top: 10px;
+    }
+}
+
+/* CSS untuk layar 425x510px */
+@media (max-width: 425px) and (max-height: 510px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    header {
+        height: 60px;
+    }
+
+    .header-right {
+        font-size: 30px;
+        padding: 10px;
+        margin-right: 20px;
+    }
+
+    nav li {
+        padding: 15px 20px;
+        font-size: 15px;
+        margin-left: 0;
+    }
+
+    .contact-container {
+        padding: 15px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .form-header {
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        margin: 8px 0;
+    }
+
+    input[type="email"],
+    input[type="text"],
+    textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
+
+    textarea {
+        height: 120px;
+    }
+
+    .icon {
+        margin-right: 120px;
+        display: flex;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    footer {
+        margin-top: 150px;
+        padding-top: 10px;
+    }
+}
