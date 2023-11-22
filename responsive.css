@@ -1,39 +1,40 @@
-/* Untuk tablet dalam orientasi potret dan lanskap */
-@media (max-width: 768px) {
+/* Untuk layar dengan lebar maksimum 320px dan tinggi maksimum 510px */
+@media only screen and (max-width: 320px) and (max-height: 510px) {
     header {
-        display: block;
-        text-align: center;
-        margin: 0;
-    }
-    body {
-        margin: 0;
-        text-align: center;
-        display: block;
-    }
-    button {
-        text-align: center;
-        display: block;
+        height: 60px; /* Mengubah tinggi header */
     }
 
-    aside {
-        justify-content: center;
+    .header-right {
+        margin-right: 10px; /* Mengubah margin untuk header-right */
+        font-size: 30px; /* Mengurangi ukuran font header-right */
     }
-  }
-  
-  /* Untuk smartphone */
-  @media (max-width: 480px) {
-    header {
-        display: block;
-        text-align: center;
-        margin: 0;
+
+    nav li {
+        padding: 10px 15px; /* Mengurangi padding pada menu navigasi */
+        margin-top: 5px; /* Mengubah margin atas pada menu navigasi */
     }
-    body {
-        margin: 0;
-        text-align: center;
-        display: block;
+
+    .Gmails,
+    .Gmailp {
+        margin-left: 10px; /* Mengubah margin kiri untuk div Gmails dan Gmailp */
+        margin-top: 100px; /* Mengubah margin atas untuk div Gmails dan Gmailp */
     }
-    button {
-        text-align: center;
-        display: block;
+
+    .Gmails p,
+    .Gmailp p {
+        margin-left: 60px; /* Mengubah margin kiri untuk paragraf Gmails dan Gmailp */
+        margin-top: -10px; /* Mengubah margin atas untuk paragraf Gmails dan Gmailp */
     }
-  }
+
+    .Gmails button,
+    .Gmailp button {
+        margin-left: 25px; /* Mengubah margin kiri untuk tombol Gmails dan Gmailp */
+        padding: 8px 15px; /* Mengubah padding untuk tombol Gmails dan Gmailp */
+    }
+
+    footer {
+        height: 30px; /* Mengubah tinggi footer */
+        line-height: 30px; /* Mengubah line-height pada footer */
+        margin-top: 250px; /* Mengubah margin atas pada footer */
+    }
+}
