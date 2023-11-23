@@ -26,6 +26,7 @@
   
   nav li {
     margin-top: 10px;
+    margin-left: -1000px;
     padding: 10px; /* Mengurangi padding untuk tampilan lebih kecil */
     transition: .6s ease-out;
   }
@@ -347,3 +348,40 @@
   
 }
 
+
+/* Your existing CSS */
+
+/* Media query for maximum width 768px */
+@media screen and (max-width: 768px) {
+  .header-right {
+      margin-right: 20px; /* Adjust spacing for smaller screens */
+  }
+
+  .img-profile {
+      width: 300px; /* Adjust image size for smaller screens */
+  }
+
+  .top-wrapper {
+      flex-direction: column; /* Stack elements vertically for smaller screens */
+      margin-bottom: 20px; /* Adjust margin for smaller screens */
+  }
+
+  .top-wrapper h1,
+  .top-wrapper h3,
+  .top-wrapper p {
+      margin-left: 20px; /* Adjust margins for smaller screens */
+      text-align: center; /* Center text on smaller screens */
+  }
+
+  nav {
+      display: none; /* Hide the navigation for smaller screens */
+  }
+
+  .mobile-menu {
+      display: block; /* Show the mobile menu icon */
+  }
+
+.atas ul {
+    display: none; 
+}
+}
