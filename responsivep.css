@@ -1,22 +1,21 @@
-/* CSS for default styles */
+
 
 /* Your existing styles */
 /* CSS untuk ukuran layar 320x510px */
-@media screen and (max-width: 320px) {
+ /* @media screen and (max-width: 320px) {
 
-/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Fonts */
+  
   body {
     font-family: 'Ubuntu', sans-serif;
   }
   
-  /* Navbar */
+  
   nav ul {
     margin: 0;
     padding: 0;
@@ -27,7 +26,7 @@
   nav li {
     margin-top: 10px;
     margin-left: -1000px;
-    padding: 10px; /* Mengurangi padding untuk tampilan lebih kecil */
+    padding: 10px; 
     transition: .6s ease-out;
   }
   
@@ -45,39 +44,38 @@
   
   nav li a:hover {
     color: white;
-    font-size: 18px; /* Mengurangi ukuran teks untuk tampilan lebih kecil */
+    font-size: 18px; 
   }
   
-  /* Header */
+ 
   .header-right {
-    font-size: 30px; /* Mengurangi ukuran font untuk tampilan lebih kecil */
+    font-size: 30px;
     padding: 10px;
-    margin-right: 20px; /* Ubah margin-right agar responsif */
+    margin-right: 20px; 
   }
   
   header {
     background-color: grey;
     width: 100%;
-    height: 60px; /* Mengurangi tinggi header untuk tampilan lebih kecil */
+    height: 60px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px; /* Mengurangi padding untuk tampilan lebih kecil */
+    padding: 0 10px;
   }
   
-  /* Profile Image */
+ 
   .img-profile {
     border-radius: 50%;
     width: 100%;
-    max-width: 250px; /* Mengurangi lebar gambar profil untuk tampilan lebih kecil */
+    max-width: 250px; 
     transition: .7s ease-out;
   }
   
   .img-profile:hover {
-    box-shadow: 0 0 50px black; /* Mengurangi bayangan untuk tampilan lebih kecil */
+    box-shadow: 0 0 50px black;
   }
   
-  /* Main */
   main {
     padding: 20px;
     background-color: white;
@@ -88,51 +86,49 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 20px; /* Mengurangi margin untuk tampilan lebih kecil */
+    margin-bottom: 20px; 
   }
   
   .top-wrapper h1,
   .top-wrapper h3 {
-    font-size: 24px; /* Mengurangi ukuran teks untuk tampilan lebih kecil */
+    font-size: 24px; 
     letter-spacing: 2px;
-    margin-top: 10px; /* Mengurangi margin untuk tampilan lebih kecil */
+    margin-top: 10px; 
     margin-left: 0px;
   }
   
   .top-wrapper p {
-    font-size: 16px; /* Mengurangi ukuran teks untuk tampilan lebih kecil */
-    margin-bottom: 10px; /* Mengurangi margin untuk tampilan lebih kecil */
+    font-size: 16px; 
+    margin-bottom: 10px;
     margin-left: 0px;
   }
   
-  /* Footer */
+  
   footer {
     width: 100%;
-    height: 30px; /* Mengurangi tinggi footer untuk tampilan lebih kecil */
+    height: 30px; 
     background-color: grey;
     text-align: center;
-    line-height: 30px; /* Mengurangi line-height untuk tampilan lebih kecil */
+    line-height: 30px;
   }
   
-}
-/* 375px */
+}  */
 
-@media (max-width: 375px) {
-    /* CSS untuk ukuran layar 375x510px */
 
-/* Reset CSS */
+/* @media (max-width: 375px) {
+    
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Fonts */
+  
   body {
     font-family: 'Ubuntu', sans-serif;
   }
   
-  /* Navbar */
+ 
   nav ul {
     margin: 0;
     padding: 0;
@@ -142,7 +138,7 @@
   
   nav li {
     margin-top: 10px;
-    padding: 10px 20px; /* Adjust padding untuk ukuran layar yang lebih kecil */
+    padding: 10px 20px; 
     transition: .6s ease-out;
   }
   
@@ -161,39 +157,38 @@
   
   nav li a:hover {
     color: white;
-    font-size: 18px; /* Adjust ukuran teks untuk ukuran layar yang lebih kecil */
+    font-size: 18px; 
   }
   
-  /* Header */
+  
   .header-right {
-    font-size: 25px; /* Adjust ukuran font untuk ukuran layar yang lebih kecil */
+    font-size: 25px; 
     padding: 10px;
-    margin-right: 20px; /* Ubah margin-right agar responsif */
+    margin-right: 20px; 
   }
   
   header {
     background-color: grey;
     width: 100%;
-    height: 60px; /* Adjust tinggi header untuk ukuran layar yang lebih kecil */
+    height: 60px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px; /* Adjust padding untuk ukuran layar yang lebih kecil */
+    padding: 0 10px; 
   }
   
-  /* Profile Image */
   .img-profile {
     border-radius: 50%;
     width: 100%;
-    max-width: 300px; /* Adjust lebar gambar profil untuk ukuran layar yang lebih kecil */
+    max-width: 300px; 
     transition: .7s ease-out;
   }
   
   .img-profile:hover {
-    box-shadow: 0 0 50px black; /* Adjust bayangan untuk ukuran layar yang lebih kecil */
+    box-shadow: 0 0 50px black; 
   }
   
-  /* Main */
+
   main {
     padding: 20px;
     background-color: white;
@@ -204,112 +199,69 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 20px; /* Adjust margin untuk ukuran layar yang lebih kecil */
+    margin-bottom: 20px; 
   }
   
   .top-wrapper h1,
   .top-wrapper h3 {
-    font-size: 24px; /* Adjust ukuran teks untuk ukuran layar yang lebih kecil */
+    font-size: 24px; 
     letter-spacing: 1px;
-    margin-top: 10px; /* Adjust margin untuk ukuran layar yang lebih kecil */
+    margin-top: 10px; 
     margin-left: 0;
   }
   
   .top-wrapper p {
-    font-size: 16px; /* Adjust ukuran teks untuk ukuran layar yang lebih kecil */
-    margin-bottom: 10px; /* Adjust margin untuk ukuran layar yang lebih kecil */
+    font-size: 16px; 
+    margin-bottom: 10px; 
     margin-right: 100px;
   }
   
-  /* Footer */
+  
   footer {
     width: 100%;
-    height: 30px; /* Adjust tinggi footer untuk ukuran layar yang lebih kecil */
+    height: 30px; 
     background-color: grey;
     text-align: center;
-    line-height: 30px; /* Adjust line-height untuk ukuran layar yang lebih kecil */
+    line-height: 30px; 
   }
   
-}
+} */
 
 /* CSS untuk ukuran layar 425x510px */
 
-@media screen and (max-width: 425px) {
-    /* CSS untuk ukuran layar 425x510px */
+ @media screen and (max-width: 425px) {
 
-/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+
+  header {
+    width: 100%;
+  }
   
-  /* Fonts */
   body {
     font-family: 'Ubuntu', sans-serif;
   }
   
-  /* Navbar */
-  nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    list-style: none;
-  }
-  
-  nav li {
-    margin-top: 10px;
-    padding: 15px 25px; /* Adjust padding untuk ukuran layar yang lebih kecil */
-    transition: .6s ease-out;
-  }
-  
-  nav li a {
-    color: black;
-    font-weight: bold;
-    transition: .6s ease-out;
-    text-decoration: none;
-  }
-  
-  nav li:hover {
-    background-color: brown;
-    font-weight: bold;
-  }
-  
-  nav li a:hover {
-    color: white;
-    font-size: 20px; /* Adjust ukuran teks untuk ukuran layar yang lebih kecil */
-  }
-  
-  /* Header */
-  .header-right {
-    font-size: 25px; /* Adjust ukuran font untuk ukuran layar yang lebih kecil */
-    padding: 14px;
-    margin-right: 20px; /* Ubah margin-right agar responsif */
-  }
-  
-  header {
-    background-color: grey;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px; /* Adjust padding untuk ukuran layar yang lebih kecil */
-  }
-  
-  /* Profile Image */
   .img-profile {
     border-radius: 50%;
+    max-width: 300px;
+    height: 300px;
     width: 100%;
-    max-width: 300px; /* Adjust lebar gambar profil untuk ukuran layar yang lebih kecil */
     transition: .7s ease-out;
+  }
+
+  .sidebar {
+    width: 200px;
   }
   
   .img-profile:hover {
-    box-shadow: 0 0 50px black; /* Adjust bayangan untuk ukuran layar yang lebih kecil */
+    box-shadow: 0 0 50px black; 
   }
   
-  /* Main */
+
   main {
     padding: 20px;
     background-color: white;
@@ -320,36 +272,36 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 20px; /* Adjust margin untuk ukuran layar yang lebih kecil */
+    margin-bottom: 20px;
   }
   
   .top-wrapper h1,
   .top-wrapper h3 {
-    font-size: 24px; /* Adjust ukuran teks untuk ukuran layar yang lebih kecil */
+    font-size: 15px; 
     letter-spacing: 2px;
-    margin-top: 10px; /* Adjust margin untuk ukuran layar yang lebih kecil */
+    margin-top: 10px; 
     margin-left: 0px;
   }
   
   .top-wrapper p {
-    font-size: 16px; /* Adjust ukuran teks untuk ukuran layar yang lebih kecil */
-    margin-bottom: 10px; /* Adjust margin untuk ukuran layar yang lebih kecil */
+    font-size: 10px; 
+    margin-bottom: 10px; 
     margin-left: 0px;
   }
   
-  /* Footer */
+  
   footer {
     width: 100%;
-    height: 30px; /* Adjust tinggi footer untuk ukuran layar yang lebih kecil */
-    background-color: grey;
+    height: 30px; 
+    background-color: black;
     text-align: center;
-    line-height: 30px; /* Adjust line-height untuk ukuran layar yang lebih kecil */
+    line-height: 30px; 
   }
   
-}
+} 
 
 
-/* Your existing CSS */
+
 
 /* Media query for maximum width 768px */
 @media screen and (max-width: 768px) {
@@ -379,6 +331,8 @@
 
   .mobile-menu {
       display: block; /* Show the mobile menu icon */
+      margin-right: 50px;
+      margin-top: 20px;
   }
 
 .atas ul {
